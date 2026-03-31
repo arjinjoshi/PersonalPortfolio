@@ -126,13 +126,15 @@ const Projects = () => {
           <div className="flex flex-row gap-2">
             <p
               onClick={() =>
-                handleClick("https://show-tracker-tau.vercel.app/")
+                handleClick("https://personal-portfolio-peach-theta-19.vercel.app/")
               }
               className="active: scale-95 text-xl font-semibold tracking-wide text-shadow-gray-950"
             >
               Live Demo |{" "}
             </p>
-            <img src={GitHubImage} className="w-8 h-8" alt="" />
+            <img onClick={() =>
+                handleClick("https://github.com/arjinjoshi/PersonalPortfolio")
+              } src={GitHubImage} className="w-8 h-8" alt="" />
           </div>
         </div>
 
