@@ -1,6 +1,5 @@
 
 import { useNavigate } from "react-router"
-import ProfileImage from "../assets/UserImage.jpeg"
 
 
 const Homepage = () => {
@@ -30,7 +29,7 @@ const Homepage = () => {
 
         </div>
         <div className='p-10 grayscale transition-all duration-1000 animate-scale-image'>
-            <img src={ProfileImage} className='h-88 rounded-xl ' alt="" />
+            <img src="https://ik.imagekit.io/u64ptlw2x/assets/UserImage-DKPZp1-5.jpg?updatedAt=1774990326073" className='h-88 rounded-xl ' alt="" />
         </div>
 
     </div>

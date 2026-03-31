@@ -1,15 +1,11 @@
-import CSSImage from "../assets/stack/CSS.png"
+
 import GitImage from "../assets/stack/Git.svg"
 import GitHubImage from "../assets/stack/Github.svg"
-import HTMLImage from "../assets/stack/HTML.png"
 import JavascriptImage from "../assets/stack/Javascript.svg"
 import MongodbImage from "../assets/stack/MongoDB.svg"
 import NodeJsImage from "../assets/stack/NodeJs.svg"
-import ReactImage from "../assets/stack/React.png"
 import ReduxImage from "../assets/stack/Redux.svg"
-import TailwindImage from "../assets/stack/Tailwind.png"
 import TypescriptImage from "../assets/stack/Typescript.svg"
-import ExpressImage from "../assets/stack/Express.png"
 
 
 
@@ -33,16 +29,16 @@ const Skills = () => {
                 </div>
                 <div className="flex mt-15 items-center justify-center gap-8 flex-wrap w-1/2 h-full">
                     <img src={MongodbImage} className="w-24 h-24" alt="" />
-                    <img src={ExpressImage} className="w-24 h-24" alt="" />
-                    <img src={ReactImage} className="w-24 h-24" alt="" />
+                    <img src="https://ik.imagekit.io/u64ptlw2x/assets/Express-hXhRzak0.png?updatedAt=1774990325891" className="w-24 h-24" alt="" />
+                    <img src="https://ik.imagekit.io/u64ptlw2x/assets/React-b0s4x0q8.png?updatedAt=1774990325793" className="w-24 h-24" alt="" />
                     <img src={NodeJsImage} className="w-24 h-24" alt="" />
                     <img src={GitImage} className="w-24 h-24" alt="" />
                     <img src={GitHubImage} className="w-24 h-24" alt="" />
-                    <img src={HTMLImage} className="w-24 h-24" alt="" />
-                    <img src={CSSImage} className="w-24 h-24" alt="" />
+                    <img src="https://ik.imagekit.io/u64ptlw2x/assets/HTML-CKyDEyeN.png?updatedAt=1774990325915" className="w-24 h-24" alt="" />
+                    <img src="https://ik.imagekit.io/u64ptlw2x/assets/CSS-BwVeJhGn.png?updatedAt=1774990325918" className="w-24 h-24" alt="" />
                     <img src={JavascriptImage} className="w-24 h-24" alt="" />
                     <img src={TypescriptImage} className="w-24 h-24" alt="" />
-                    <img src={TailwindImage} className="w-24 h-24" alt="" />
+                    <img src="https://ik.imagekit.io/u64ptlw2x/assets/Tailwind-xnK0lD3j.png?updatedAt=1774990326016" className="w-24 h-24" alt="" />
                     <img src={ReduxImage} className="w-24 h-24" alt="" />
                 </div>
 

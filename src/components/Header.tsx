@@ -1,5 +1,4 @@
-import Navlogo from "../assets/NavLogo.jpg"
-import Navlogo2 from "../assets/NavLogo2.jpg"
+
 import { NavLink } from "react-router"
 
 const Header = () => {
@@ -7,11 +6,11 @@ const Header = () => {
     <div className=" w-full bg-white flex items-center justify-between">
       <div className="flex -ml-8">
         <div className="flex items-center mr-3" >
-                <img src={Navlogo} className="h-25" alt="Hello" /> 
+                <img src="https://ik.imagekit.io/u64ptlw2x/assets/NavLogo-CVgFBYXB.jpg?updatedAt=1774990326232" className="h-25" alt="Hello" /> 
                 <span className="text-2xl -ml-8 tracking-wide font-medium">rjin</span>
         </div>
         <div  className="flex items-center" >
-                <img src={Navlogo2} className="h-10" alt="Hello" /> 
+                <img src="https://ik.imagekit.io/u64ptlw2x/assets/NavLogo2-BuB6WENT.jpg?updatedAt=1774990325983" className="h-10" alt="Hello" /> 
                 <span className="text-2xl tracking-wide font-medium">oshi</span>
         </div>  
       </div>
