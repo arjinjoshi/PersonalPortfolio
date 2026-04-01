@@ -6,7 +6,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 w-full">
       <h1 className="text-8xl text-orange-500 text-center">Projects</h1>
 
       <div>
@@ -161,7 +161,7 @@ const Projects = () => {
         </p>
       </div>
 
-      <div className="text-lightGray text-9xl select-none -ml-25 -mb-10">
+      <div className="text-lightGray text-9xl select-none">
         Projects
       </div>
     </div>

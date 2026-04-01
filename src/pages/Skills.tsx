@@ -43,9 +43,9 @@ const Skills = () => {
                 </div>
 
         </div>
-        <div className='text-lightGray text-9xl select-none absolute bottom-6 left-25'>
-             Skills
-        </div>
+        <div className="text-lightGray text-9xl select-none">
+        Skills
+      </div>
     </div>
   )
 }

@@ -9,7 +9,7 @@ import Contactme from './pages/Contactme'
 const App = () => {
   return (
     <div className='flex justify-center items-center m-full w-full'>
-      <div className='w-300'>
+      <div className='w-10/12'>
         <Header/>
         <Routes>
           <Route index element={<Homepage/> }/>
