@@ -126,7 +126,7 @@ const Projects = () => {
           <div className="flex flex-row gap-2">
             <p
               onClick={() =>
-                handleClick("https://personal-portfolio-peach-theta-19.vercel.app/")
+                handleClick("https://personal-portfolio-chf9.vercel.app/")
               }
               className="active: scale-95 text-xl font-semibold tracking-wide text-shadow-gray-950"
             >
