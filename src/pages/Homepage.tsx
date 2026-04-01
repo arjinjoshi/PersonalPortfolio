@@ -1,4 +1,5 @@
 
+import { MdMail } from "react-icons/md";
 import { useNavigate } from "react-router"
 
 
@@ -18,7 +19,7 @@ const Homepage = () => {
 
         <p className='text-lg tracking-wide'>I'm a software developer and here is my portfolio website. <br /> Here you'll learn about my journey as a software developer.</p>
 
-        <button onClick={() => navigate('/contactme')} className=' bg-orange-500 text-white text-left text-lg tracking-wide padding w-30 rounded-2xl p-3'> <p className='text-center'>Hire Me</p></button>
+        <button onClick={() => navigate('/contactme')} className='cursor-pointer bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-left text-lg tracking-wide padding w-30 rounded-2xl p-3'> <p className='flex items-center gap-1'><MdMail/>Say hi!</p></button>
 
         <div className='text-lightGray text-9xl select-none absolute bottom-6 left-25'>
              Home

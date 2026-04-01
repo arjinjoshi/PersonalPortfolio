@@ -95,9 +95,9 @@ const Contactme = () => {
 
                     <button 
                         type="submit"
-                        className="bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-lg tracking-wide w-full md:w-50 rounded-xl py-3 shadow-md transition-all self-center md:self-start"
+                        className="cursor-pointer bg-orange-500 hover:bg-orange-600 text-white text-lg tracking-wide w-full md:w-50 rounded-xl py-3 shadow-md transition-all self-center md:self-start"
                     > 
-                        <p className="text-center">Hire Me</p>
+                        <p className="text-center">Send Message</p>
                     </button>
                 </form>
             </div>

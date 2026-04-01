@@ -1,4 +1,5 @@
-import GitHubImage from "../assets/stack/Github.svg";
+import { FaGithub } from "react-icons/fa";
+
 
 const Projects = () => {
   const handleClick = (url: string) => {
@@ -11,34 +12,27 @@ const Projects = () => {
 
       <div>
         <div className="flex flex-row justify-between">
-          <p className=" text-3xl font-semibold tracking-wide  text-orange-500 mb-5">
+          <p className="text-3xl font-semibold tracking-wide  text-orange-500 mb-5">
             GenAI Resume & Interview Assistant{" "}
             <small className="text-sm ">
               {" "}
               | MERN, Redux, Gemini API, Vercel AI SDK{" "}
             </small>
           </p>
-          <div className="flex flex-row gap-2">
+          <div className="flex flex-row gap-2 text-xl text-shadow-gray-950 font-semibold tracking-wide">
             <p
               onClick={() =>
                 handleClick(
                   "https://gen-ai-interview-question-and-resume.vercel.app/"
                 )
               }
-              className="active: scale-95 text-xl font-semibold tracking-wide text-shadow-gray-950"
+              className="cursor-pointer active:scale-95 hover:text-orange-500"
             >
-              Live Demo |{" "}
+              Live Demo
             </p>
-            <img
-              onClick={() =>
-                handleClick(
-                  "https://github.com/arjinjoshi/GenAI-InterviewQuestionAndResumeBuilding"
-                )
-              }
-              src={GitHubImage}
-              className="w-8 h-8"
-              alt=""
-            />
+            |
+            
+        <FaGithub onClick={() => handleClick("https://www.github.com/arjinjoshi")} size="1.8rem" className=" active:scale-95 cursor-pointer hover:text-orange-500"/>
           </div>
         </div>
 
@@ -71,23 +65,17 @@ const Projects = () => {
               | React, Redux, Tailwind, TMDB API{" "}
             </small>
           </p>
-          <div className="flex flex-row gap-2">
+          <div className="flex flex-row gap-2 text-xl text-shadow-gray-950 font-semibold tracking-wide">
             <p
               onClick={() =>
                 handleClick("https://show-tracker-tau.vercel.app/")
               }
-              className="active: scale-95 text-xl font-semibold tracking-wide text-shadow-gray-950"
+              className="cursor-pointer active:scale-95 hover:text-orange-500"
             >
-              Live Demo |{" "}
+              Live Demo
             </p>
-            <img
-              onClick={() =>
-                handleClick("https://github.com/arjinjoshi/ShowTracker")
-              }
-              src={GitHubImage}
-              className="w-8 h-8"
-              alt=""
-            />
+            |
+            <FaGithub onClick={() => handleClick("https://www.github.com/arjinjoshi")} size="1.8rem" className="cursor-pointer active:scale-95 hover:text-orange-500"/>
           </div>
         </div>
 
@@ -123,18 +111,17 @@ const Projects = () => {
               | React, TypeScript, Tailwind CSS
             </small>
           </p>
-          <div className="flex flex-row gap-2">
+          <div className="flex flex-row gap-2 text-xl text-shadow-gray-950 font-semibold tracking-wide">
             <p
               onClick={() =>
                 handleClick("https://personal-portfolio-chf9.vercel.app/")
               }
-              className="active: scale-95 text-xl font-semibold tracking-wide text-shadow-gray-950"
+              className="cursor-pointer active:scale-95 hover:text-orange-500"
             >
-              Live Demo |{" "}
+              Live Demo
             </p>
-            <img onClick={() =>
-                handleClick("https://github.com/arjinjoshi/PersonalPortfolio")
-              } src={GitHubImage} className="w-8 h-8" alt="" />
+            |
+            <FaGithub onClick={() => handleClick("https://www.github.com/arjinjoshi")} size="1.8rem" className="cursor-pointer active:scale-95 hover:text-orange-500"/>
           </div>
         </div>
 
