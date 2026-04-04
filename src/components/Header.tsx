@@ -26,10 +26,10 @@ const Header = () => {
           <div className="flex items-center mr-3">
             <img 
               src="https://ik.imagekit.io/u64ptlw2x/assets/NavLogo-CVgFBYXB.jpg?updatedAt=1774990326232" 
-              className="h-16 md:h-20" 
+              className="h-18 md:h-23" 
               alt="Logo Part 1" 
             />
-            <span className="text-xl md:text-2xl -ml-6 md:-ml-8 tracking-wide font-medium">rjin</span>
+            <span className="text-xl md:text-2xl -ml-6 md:-ml-7 tracking-wider font-medium">rjin</span>
           </div>
           <div className="flex items-center">
             <img 
