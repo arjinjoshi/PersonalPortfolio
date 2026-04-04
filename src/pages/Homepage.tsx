@@ -21,15 +21,15 @@ const Homepage = () => {
 
         <button onClick={() => navigate('/contactme')} className='cursor-pointer bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-left text-lg tracking-wide padding w-30 rounded-2xl p-3'> <p className='flex items-center gap-1'><MdMail/>Say hi!</p></button>
 
-        <div className='text-lightGray text-9xl select-none absolute bottom-6 left-25'>
-             Home
+        <div className="text-lightGray text-9xl select-none">
+        Home
         </div>
 
 
 
 
         </div>
-        <div className='p-10 grayscale transition-all duration-1000 animate-scale-image'>
+        <div className='hidden md:flex p-10 grayscale transition-all duration-1000 animate-scale-image'>
             <img src="https://ik.imagekit.io/u64ptlw2x/assets/UserImage-DKPZp1-5.jpg?updatedAt=1774990326073" className='h-88 rounded-xl ' alt="" />
         </div>
 
