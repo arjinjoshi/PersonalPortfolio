@@ -61,7 +61,7 @@ const Header = () => {
           <FaGithub onClick={() => handleClick("https://www.github.com/arjinjoshi")} size="1.5rem" className="cursor-pointer hover:text-orange-500 active:scale-95" />
           <MdMail onClick={() => handleClick("mailto:thearjinjoshi1@gmail.com")} size="1.5rem" className="cursor-pointer hover:text-orange-500 active:scale-95" />
           <button 
-            onClick={() => handleClick("https://ik.imagekit.io/u64ptlw2x/ArjinJoshi_Associate-Software-Engineer.pdf")} 
+            onClick={() => handleClick("https://ik.imagekit.io/u64ptlw2x/Arjin_Joshi_AssociateSoftwareEngineer.pdf")} 
             className="cursor-pointer bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-md tracking-wide px-4 py-2 rounded-2xl flex items-center gap-2"
           >
             Resume <FaRegFilePdf />
