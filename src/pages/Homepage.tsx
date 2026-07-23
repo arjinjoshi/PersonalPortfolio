@@ -1,12 +1,9 @@
-
 import { useEffect, useRef } from "react";
 import { MdMail } from "react-icons/md";
-import { useNavigate } from "react-router"
+import { useNavigate } from "react-router";
 import Typed from "typed.js";
 
-
 const Homepage = () => {
-
   const navigate = useNavigate();
   const el = useRef(null);
 
@@ -31,33 +28,48 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div className='flex justify-between h-full mt-30 items-center'>
+    // Make outer wrapper a full-height flex column/row
+    <div className='flex flex-col justify-between min-h-[calc(100vh-120px)] w-full mt-8'>
+      
+      {/* Top Section: Left Text + Right Image */}
+      <div className='flex justify-between items-center w-full'>
+        {/* Left Content */}
         <div className='text-lightdarkblue tracking-wide flex flex-col gap-5'>
-            <h1 className='text-4xl'>Hi! Arjin Joshi </h1>
-            <div className='text-4xl'>
-              I am a{" "}
-              <span ref={el} className='text-orange-500'></span>
-            </div>
+          <h1 className='text-4xl'>Hi! Arjin Joshi </h1>
+          <div className='text-4xl'>
+            I am a <span ref={el} className='text-orange-500'></span>
+          </div>
 
-        <p className='text-lg tracking-wide'>I'm a software developer and here is my portfolio website. <br /> Here you'll learn about my journey as a software developer.</p>
+          <p className='text-lg tracking-wide'>
+            I'm a software developer and here is my portfolio website. <br /> 
+            Here you'll learn about my journey as a software developer.
+          </p>
 
-        <button onClick={() => navigate('/contactme')} className='cursor-pointer bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-left text-lg tracking-wide padding w-30 rounded-2xl p-3'> <p className='flex items-center gap-1'><MdMail/>Say hi!</p></button>
-
-        <div className="text-lightGray text-9xl select-none">
-        Home
+          <button 
+            onClick={() => navigate('/contactme')} 
+            className='cursor-pointer bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-left text-lg tracking-wide w-30 rounded-2xl p-3'
+          > 
+            <p className='flex items-center gap-1'><MdMail/>Say hi!</p>
+          </button>
         </div>
 
-
-
-
-        </div>
+        {/* Right Image */}
         <div className='hidden md:flex p-10 grayscale transition-all duration-1000 animate-scale-image'>
-            <img src="https://ik.imagekit.io/u64ptlw2x/assets/UserImage-DKPZp1-5.jpg?updatedAt=1774990326073" className='h-88 rounded-xl ' alt="" />
+          <img 
+            src="https://ik.imagekit.io/u64ptlw2x/assets/UserImage-DKPZp1-5.jpg?updatedAt=1774990326073" 
+            className='h-88 rounded-xl' 
+            alt="Arjin Joshi" 
+          />
         </div>
+      </div>
+
+      {/* Bottom Text: Un-nested and placed at the very bottom left (Matching Skills component pattern) */}
+      <div className="text-lightGray text-9xl select-none text-left mt-auto">
+        Home
+      </div>
 
     </div>
+  );
+};
 
-  )
-}
-
-export default Homepage
+export default Homepage;
